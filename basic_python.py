@@ -22,3 +22,9 @@ print(f"my name is {name} and my age is {age}") #process 2
 num = int(input("Enter a number"))
 age =int(input("Enter the age"))
 print(num,age)
+
+#if_else
+if 13>10 :
+    print("true")
+else :
+    print ("false")
