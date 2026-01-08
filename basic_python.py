@@ -8,3 +8,6 @@ a= "A"
 print(ord(a))
 d=65
 print(chr(d))
+
+e ="akash mony"
+print(e[0:5:1])
