@@ -17,3 +17,8 @@ age =23
 
 print ("my name is",name,"and my age is",age) #process 1
 print(f"my name is {name} and my age is {age}") #process 2
+
+#input
+num = int(input("Enter a number"))
+age =int(input("Enter the age"))
+print(num,age)
