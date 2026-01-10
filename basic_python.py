@@ -127,3 +127,10 @@ a =[1,2,3,4,5,6]
 b = a
 b[0] = 65
 print (a)  
+
+#shallow copy
+#if we change the copy it changes only this copy
+a =[1,2,3,4,5,6]
+b = a.copy()
+b[0] = 65
+print (a)
