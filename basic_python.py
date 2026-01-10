@@ -120,3 +120,10 @@ for i in d2:
     print(d1)  
 
     print("akash")
+
+#deep copy
+#if we change the copy it changes the main
+a =[1,2,3,4,5,6]
+b = a
+b[0] = 65
+print (a)  
