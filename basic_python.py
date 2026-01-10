@@ -68,3 +68,31 @@ def sum(name,surname):
     return (name+surname)
 
 print(sum("akash ","mony")) 
+
+#list 
+num = [1,2,3,5,6]
+num2 = [7,9,10]
+num.append(10)
+print(num)
+num.insert(3,13)
+print(num)
+num.extend(num2)
+print(num)
+num.remove(3)
+print(num)
+pop1 = num.pop(4)
+in1 = num.index(7)
+print(pop1,in1)
+num.sort()
+print(num)
+
+l =[5,-1,6,3,-5,-3,-2,9]
+pl = []
+nl =[]
+for i in l:
+    if i>=0 :
+        pl.append(i)
+    else :
+        nl.append(i)
+print (f"positive number is {pl}")
+print (f"negative number is {nl}") 
