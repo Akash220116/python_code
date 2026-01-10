@@ -96,3 +96,27 @@ for i in l:
         nl.append(i)
 print (f"positive number is {pl}")
 print (f"negative number is {nl}") 
+
+
+#dict
+d={10:20,20:300,30:456}
+print(type(d))
+print(d[10])
+d[20] = 700    #change
+print(d[20])
+d.update({50:430})  #add a new value in dict
+print(d)            #full dict print
+d[60] = 890  # it also add
+del d[30]  #delete
+print(d)
+for i in d:
+    print(i) #print keys
+    print(d[i])  #print values
+#merge two dict 
+d1 ={1:10,2:20,3:30}
+d2 ={4:40,5:50,6:60}
+for i in d2:
+    d1[i]=d2[i]
+    print(d1)  
+
+    print("akash")
