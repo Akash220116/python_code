@@ -152,3 +152,13 @@ try:
         print("welcome to the club")
 except Exception as err:
     print(f"An error occured as{err}")
+
+    # class
+    class Factory:
+    a=16
+    def hello(self):
+        print("hello world")
+
+Factory().hello()
+print(Factory().a)
+    
