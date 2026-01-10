@@ -28,3 +28,43 @@ if 13>10 :
     print("true")
 else :
     print ("false")
+
+#for loops
+
+for i in range(1,21,1):
+    print( i )
+
+name = "Akash mony"
+print(name[0:5:1]) 
+
+for i in range (21):
+   print (i)
+ 
+n = int(input("enter the number ")) 
+
+for i in range (1,n+1,1) :
+   print (i)  
+
+evensum = 0 
+oddsum = 0
+n = int(input("Enter the number "))
+for i in range(n+1):
+    if (i%2==0):
+        evensum += i
+    else :
+        oddsum +=i 
+
+print(f"even sum is {evensum}") 
+print(f"odd sum is {oddsum}") 
+
+# while loops
+a = 5
+while a < 10 :
+    print ("akash")
+    a += 1 
+
+#funtion
+def sum(name,surname):
+    return (name+surname)
+
+print(sum("akash ","mony")) 
