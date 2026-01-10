@@ -134,3 +134,21 @@ a =[1,2,3,4,5,6]
 b = a.copy()
 b[0] = 65
 print (a)
+
+#Exception handles
+a = int(input("Enter a number "))
+try:
+    print(10/a)
+except Exception as err:
+    print(f"there are an error as {err}")  
+ 
+# raise = create own error
+age = int(input("Tell your age "))
+
+try:
+    if age<10 or age>18:
+        raise ValueError("your age must be between 10 and 18")
+    else:
+        print("welcome to the club")
+except Exception as err:
+    print(f"An error occured as{err}")
