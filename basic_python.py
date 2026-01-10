@@ -155,10 +155,15 @@ except Exception as err:
 
     # class
     class Factory:
-    a=16
+        k =16
     def hello(self):
         print("hello world")
 
 Factory().hello()
-print(Factory().a)
+print(Factory().k)
+
+obj = Factory()
+obj.hello()
+obj2 = Factory()
+print(obj2.k)
     
